@@ -12,6 +12,6 @@ pip install -e .
 
 ## Usage
 
-python -m dep_tree <path> [--folder-out] [--json]
+`python -m dep_tree <path> [--folder-out] [--json]`
 
 saved into output/
