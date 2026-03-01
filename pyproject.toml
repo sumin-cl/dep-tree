@@ -1,0 +1,16 @@
+[project]
+name = "dep-tree"
+version = "0.1.0"
+description = "File and dependency tree analyzer"
+authors = [
+    { name = "Sumin" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.scripts]
+dep-tree = "dep_tree.cli:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
